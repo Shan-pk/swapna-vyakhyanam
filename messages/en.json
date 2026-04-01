@@ -1,0 +1,35 @@
+{
+  "Index": {
+    "title": "Unveil the Secrets of Your Subconscious",
+    "subtitle": "Discover the hidden meanings of your dreams through advanced AI, Jungian psychology, and deep cultural symbolism.",
+    "cta_primary": "Analyze Your Dream",
+    "cta_secondary": "Learn How It Works",
+    "features_title": "How SwapnaVyakhyanam Works",
+    "feature_1_title": "1. Write Your Dream",
+    "feature_1_desc": "Log the details of your dream, symbols, emotions, and people you saw. The more detail, the better.",
+    "feature_2_title": "2. AI Analysis",
+    "feature_2_desc": "Our engine processes your dream using psychological frameworks and cultural symbols to extract meaning.",
+    "feature_3_title": "3. Gain Insights",
+    "feature_3_desc": "Receive a detailed interpretation of what your subconscious might be trying to tell you."
+  },
+  "LocaleSwitcher": {
+    "label": "Language"
+  },
+  "Navigation": {
+    "home": "Home",
+    "journal": "My Journal",
+    "login": "Log In",
+    "signup": "Sign Up"
+  },
+  "Footer": {
+    "description": "Your AI-powered dream interpretation platform bridging modern psychology with ancient wisdom.",
+    "rights": "All rights reserved."
+  },
+  "Journal": {
+    "title": "Dream Journal",
+    "subtitle": "Record your dreams to unlock their hidden meanings.",
+    "placeholder": "Reflect on what you saw, felt, and experienced... (e.g., I was walking through a dense forest and suddenly a silver fox appeared...)",
+    "submit": "Analyze Dream",
+    "login_prompt": "Please log in to submit and analyze your dreams."
+  }
+}
