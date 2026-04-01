@@ -8,7 +8,8 @@ import DreamForm from "./DreamForm";
 export default async function JournalPage() {
   const t = await getTranslations("Journal");
   const supabase = await createClient();
-  const { data: { user } } = await supabase.auth.getUser();
+  const { data } = await supabase.auth.getUser();
+  const user = data?.user;
 
   return (
     <div className="container mx-auto max-w-4xl px-4 py-12 md:py-24">

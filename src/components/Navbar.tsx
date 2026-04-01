@@ -9,7 +9,8 @@ export default async function Navbar() {
   const t = await getTranslations("Navigation");
   const supabase = await createClient();
   
-  const { data: { user } } = await supabase.auth.getUser();
+  const { data } = await supabase.auth.getUser();
+  const user = data?.user;
 
   return (
     <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">

@@ -1,10 +1,10 @@
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/routing";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { Sparkles, Moon, BrainCircuit } from "lucide-react";
 
-export default function Home() {
-  const t = useTranslations("Index");
+export default async function Home() {
+  const t = await getTranslations("Index");
 
   return (
     <div className="flex flex-col flex-1 items-center justify-center relative overflow-hidden">
