@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/routing";
-import { Button, buttonVariants } from "@/components/ui/button";
+import { Button } from "@/components/ui/button";
 import { Sparkles, Moon, BrainCircuit } from "lucide-react";
 
 export default async function Home() {
@@ -30,21 +30,14 @@ export default async function Home() {
         <div className="flex flex-col sm:flex-row gap-4 mt-8 w-full justify-center">
           <Link 
             href="/journal" 
-            className={buttonVariants({ 
-              size: "lg", 
-              className: "h-12 px-8 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white shadow-lg shadow-indigo-500/25 transition-all w-full sm:w-auto text-md font-medium" 
-            })}
+            className="inline-flex items-center justify-center rounded-lg h-12 px-8 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white shadow-lg shadow-indigo-500/25 transition-all w-full sm:w-auto text-md font-medium"
           >
             <Moon className="mr-2 h-5 w-5" />
             {t("cta_primary")}
           </Link>
           <Link 
             href="#how-it-works" 
-            className={buttonVariants({ 
-              variant: "outline", 
-              size: "lg", 
-              className: "h-12 px-8 shadow-sm w-full sm:w-auto text-md font-medium border-indigo-200 hover:bg-indigo-50 dark:border-indigo-800 dark:hover:bg-indigo-950/50" 
-            })}
+            className="inline-flex items-center justify-center rounded-lg h-12 px-8 shadow-sm w-full sm:w-auto text-md font-medium border border-indigo-200 text-foreground hover:bg-indigo-50 dark:border-indigo-800 dark:hover:bg-indigo-950/50 transition-all"
           >
             <BrainCircuit className="mr-2 h-5 w-5 text-indigo-500" />
             {t("cta_secondary")}
